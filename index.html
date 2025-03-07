@@ -1,0 +1,571 @@
+<html>
+    <head>
+            <title>Boulos | Echo</title>
+           
+    </head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        .container{
+            flex:1;
+            height: 100%;
+            flex-direction: column;
+            background-color: #fff;
+            padding-left: 100px;
+            padding-right: 100px;
+            position: relative;
+           
+        }
+
+        .component{
+            background-color: "#003300";
+            display:flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+           
+        }
+        .poppins-thin {
+  font-family: "Poppins", serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.poppins-extralight {
+  font-family: "Poppins", serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.poppins-black {
+  font-family: "Poppins", serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.poppins-thin-italic {
+  font-family: "Poppins", serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.poppins-extralight-italic {
+  font-family: "Poppins", serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.poppins-light-italic {
+  font-family: "Poppins", serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.poppins-regular-italic {
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.poppins-medium-italic {
+  font-family: "Poppins", serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.poppins-semibold-italic {
+  font-family: "Poppins", serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.poppins-bold-italic {
+  font-family: "Poppins", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.poppins-extrabold-italic {
+  font-family: "Poppins", serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.poppins-black-italic {
+  font-family: "Poppins", serif;
+  font-weight: 900;
+  font-style: italic;
+}
+.hidden {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.slide-up {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+    </style>
+    <body>
+        <div class="container" >
+          <!-- Nav Component -->
+            <div class="component" style="background-color: #fff;">
+               <div style="display: flex;align-items: center;flex-direction: column;justify-content: flex-start;">
+                <img src="./assets/bouloswhite.png" />
+               
+                </div>
+                <div style="flex:0.5;width:100%;display:flex">
+                    <div style="flex:1;font-size: 16px;font-weight: 500;font-family: Poppins;cursor: pointer;">Home</div>
+                    <div style="flex:1;font-size: 16px;font-family: Poppins;cursor: pointer">About us</div>
+                    <div style="flex:1;font-size: 16px;font-family: Poppins;cursor: pointer">Our Products</div>
+                    <div style="flex:1;font-size: 16px;font-weight: 500;font-family: Poppins;cursor: pointer">NewsLetters</div>
+                </div>
+                
+               <a href="https://wa.me/+2347060934005" target="_blank" style="box-shadow: 5px 5px 15px rgba(255, 0, 0, 0.1);text-decoration:none;width: 100px; background-color:#3a6988;height: 40px;border-radius: 20px;color:#fff;align-items: center; justify-content:center;display: flex;font-family: Poppins;padding: 10px;">Contact us</a>
+            </div>
+          <!-- Hero Component -->
+            <div class="hidden" style="width:100%; height:100vh;padding-left: 20px;padding-right: 20px;">
+                <div style="display:flex;flex-direction: row;justify-content:space-between;align-items: center;margin-top: 20px;position: absolute;z-index: 10;">
+                    <div style="display: flex; flex-wrap: wrap;flex:1;font-family: Poppins;font-size:60px;justify-content: flex-start;align-items: flex-start;">
+                        Experience the future of Transportation
+                    </div>
+                    <div style=" width:50px;flex:0.4;flex-wrap:wrap;font-family:  Poppins; font-size: 14px;color:#bfbfbf;">
+                        <br/>
+                        <i>
+                          At Boulos Enterprise Limited, we take pride in delivering reliable, fuel-efficient, and rugged vehicles tailored for your business needs.
+                            
+                        </i>
+                       
+                    </div>
+                </div>
+                <div style="margin-top:0px;width:100%; flex: 1; display: flex;justify-content: center; flex-direction: column;position: relative;">
+                    <img src="./assets/007.png" style="width: 100%; object-fit: cover" />
+                    <div style="left:0%;font-size:14px; width: 320px;height:70px;background-color:rgba(199, 199, 199, 1);border-radius: 20px;position: absolute; z-index: 1;bottom:0px;padding: 20px;color:#fff;font-family:Poppins;top:70%">
+                      Now, we introduce the Suzuki EECO – the perfect Cargo & Passenger Van designed for efficiency, durability, and cost-effectiveness.
+                    </div>
+                </div>
+               
+            </div>
+
+<!-- Mission Statement -->
+            <div class="hidden" style="width:60%;padding-left: 20px;padding-right: 20px;margin-top: 100px;font-family: Poppins; font-size: 25px;">
+              Whether you need a cargo van for deliveries or a passenger van for transport, the Suzuki EECO is the perfect choice to keep your business moving.
+            </div>
+            <!-- Achievement Component -->
+            <div class="hidden" style="margin-top: 20px;width:100%;display:flex;flex-direction: row;">
+                <div style="flex:0.3;color:#bfbfbf;font-family: Poppins; font-size: 15px;text-align: start;margin-top: 20px;">
+                  Whether you need a cargo van for deliveries or a passenger van for transport, the Suzuki EECO is the perfect choice to keep your business moving.
+                    <button style="border-radius: 10px;width: 200px;height: 40px;margin-top: 10px; border:1px solid #3a6988;background-color: #3a6988;color:#fff;cursor: pointer;">Learn More</button>
+                   
+                </div>
+                <div style="flex: 0.7; display: flex; flex-wrap: wrap; width: 100%;">
+                    <div id="sold" style="background-color: #f6f6f6; border-radius: 20px; margin: 10px; height: 200px; flex: 1 1 calc(50% - 20px); text-align: center; display: flex; align-items: center; justify-content: center;font-size: 60px;font-family: Poppins;flex-direction: column;">
+                       0
+                    </div>
+                    <div id="completed" style="background-color: #f6f6f6; border-radius: 20px; margin: 10px; height: 200px; flex: 1 1 calc(50% - 20px); text-align: center; display: flex; align-items: center; justify-content: center;font-size: 60px;font-family: Poppins;flex-direction: column;">
+                        0
+                    </div>
+                    <div id="review" style="background-color: #f6f6f6; border-radius: 20px; margin: 10px; height: 200px; flex: 1 1 calc(50% - 20px); text-align: center; display: flex; align-items: center; justify-content: center;font-size: 60px;font-family: Poppins;flex-direction: column;">
+                        0
+                    </div>
+                    <div id="submitted" style="background-color: #f6f6f6; border-radius: 20px; margin: 10px; height: 200px; flex: 1 1 calc(50% - 20px); text-align: center; display: flex; align-items: center; justify-content: center;font-size: 60px;font-family: Poppins;flex-direction: column;">
+                        80+
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Book a ride -->
+            
+            <div class="hidden" style="padding-left: 20px;padding-right: 40px;">
+
+                <div style="margin-top: 20px; width:100%;border-radius: 20px;background-color: #222;height: 400px;padding:30px;position: relative;">
+                    <div style="font-family: Poppins;color:#fff;font-size: 30px;width: 50%;">
+                      Now, we introduce the Suzuki EECO – the perfect Cargo & Passenger Van designed for efficiency, durability, and cost-effectiveness.
+                    </div>
+                    <button style="margin-top:20px; width:200px;height: 50px;background-color: #3a6988;color:#fff;border-radius: 20px;border:1px solid #3a6988">Learn More</button>
+                    <div style="width: 80%;display: flex;justify-content: flex-end; position: absolute;bottom:-45%;left: 25%;">
+                        <img src="assets/009.png" style="width: 100%; object-fit: cover" />
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Why Choose us -->
+
+            <div class="hidden" style="margin-top: 120px; width:100%;height:auto;display:flex;margin-bottom: 100px">
+               
+                  <div style="flex:0.5; height:auto; overflow: hidden; background-color: #f6f6f6;border-radius: 20px;">
+                    <img src="./assets/101.jpg" style="width: 100%; height: 100%; object-fit: cover;flex: 1;" />
+                  </div>
+                  
+                  <div style="flex: 0.5;color:#222;text-align: start;margin-left: 20px;">
+                       <div style="font-family:Poppins;font-size: 30px;">Why choose Suzuki EECO?</div>
+
+                       <div style="margin-top: 30px;display: flex;flex-direction: row;align-items: center;">
+                        <div style="flex:0.1;">
+                          <div style="box-shadow: 5px 5px 15px rgba(255, 0, 0, 0.2);width:50px; height: 50px;border-radius: 25px;background-color: #3a6988;display: flex;justify-content: center;align-items: center;color:#fff;font-family: Poppins;">
+                            1.
+                          </div>
+                        </div>
+                        <div style="margin-left: 10px; flex:1;display: flex;flex-direction: column;justify-content: flex-start;align-items: flex-start;">
+                          <div style="font-weight:500;font-family: Poppins;font-size: 18px;">Rugged & Built for Nigerian Roads</div>
+                          <div style="font-family: Poppins;font-size: 14px;margin-top: 10px;color:#bfbfbf">Rugged & Built for Nigerian Roads.</div>
+                        </div>
+                       </div>
+
+                       <div style="margin-top: 30px;display: flex;flex-direction: row;align-items: center;">
+                        <div style="flex:0.1;">
+                          <div style="box-shadow: 5px 5px 15px rgba(255, 0, 0, 0.2);width:50px; height: 50px;border-radius: 25px;background-color: #3a6988;display: flex;justify-content: center;align-items: center;color:#fff;font-family: Poppins;">
+                            2.
+                          </div>
+                        </div>
+                        <div style="margin-left: 10px; flex:1;display: flex;flex-direction: column;justify-content: flex-start;align-items: flex-start;">
+                          <div style="font-weight:500;font-family: Poppins;font-size: 18px;">Fuel-Efficient & Cost-Effective
+                          </div>
+                          <div style="font-family: Poppins;font-size: 14px;margin-top: 10px;color:#bfbfbf">Fuel-Efficient & Cost-Effective.
+                       </div>
+                        </div>
+                       </div>
+
+                       <div style="margin-top: 30px;display: flex;flex-direction: row;align-items: center;">
+                        <div style="flex:0.1;">
+                          <div style="box-shadow: 5px 5px 15px rgba(255, 0, 0, 0.2);width:50px; height: 50px;border-radius: 25px;background-color: #3a6988;display: flex;justify-content: center;align-items: center;color:#fff;font-family: Poppins;">
+                            3.
+                          </div>
+                        </div>
+                        <div style="margin-left: 10px; flex:1;display: flex;flex-direction: column;justify-content: flex-start;align-items: flex-start;">
+                          <div style="font-weight:500;font-family: Poppins;font-size: 18px;">Spacious, Versatile & Reliable
+                          </div>
+                          <div style="font-family: Poppins;font-size: 14px;margin-top: 10px;color:#bfbfbf">Spacious, Versatile & Reliable
+                            .</div>
+                        </div>
+                       </div>
+
+                       <div style="margin-top: 30px;display: flex;flex-direction: row;align-items: center;">
+                        <div style="flex:0.1;">
+                          <div style="box-shadow: 5px 5px 15px rgba(255, 0, 0, 0.2);width:50px; height: 50px;border-radius: 25px;background-color: #3a6988;display: flex;justify-content: center;align-items: center;color:#fff;font-family: Poppins;">
+                            4.
+                          </div>
+                        </div>
+                        <div style="margin-left: 10px; flex:1;display: flex;flex-direction: column;justify-content: flex-start;align-items: flex-start;">
+                          <div style="font-weight:500;font-family: Poppins;font-size: 18px;">Comfortable</div>
+                          <div style="font-family: Poppins;font-size: 14px;margin-top: 10px;color:#bfbfbf">By choosing our electric car rental services, you are reducing your carbon footprint and doing your part to protect the environment.</div>
+                        </div>
+                       </div>
+
+                       <div style="margin-top: 30px;display: flex;flex-direction: row;align-items: center;">
+                        <div style="flex:0.1;">
+                          <div style="box-shadow: 5px 5px 15px rgba(255, 0, 0, 0.2);width:50px; height: 50px;border-radius: 25px;background-color: #3a6988;display: flex;justify-content: center;align-items: center;color:#fff;font-family: Poppins;">
+                            5.
+                          </div>
+                        </div>
+                        <div style="margin-left: 10px; flex:1;display: flex;flex-direction: column;justify-content: flex-start;align-items: flex-start;">
+                          <div style="font-weight:500;font-family: Poppins;font-size: 18px;">Dashing</div>
+                          <div style="font-family: Poppins;font-size: 14px;margin-top: 10px;color:#bfbfbf">By choosing our electric car rental services, you are reducing your carbon footprint and doing your part to protect the environment.</div>
+                        </div>
+                       </div>
+                  </div>
+            </div>
+
+            <!-- How To Rent an Electric Car -->
+            <div class="hidden" style="margin-top: 120px; width:100%;height:auto;display:flex;margin-bottom: 100px">
+               
+              
+              <div style="flex: 0.5;color:#222;text-align: start;margin-left: 20px;">
+                   <div style="font-family:Poppins;font-size: 30px;">What make us ?</div>
+
+                   <div style="margin-top: 30px;display: flex;flex-direction: row;align-items: center;">
+                    <div style="flex:0.1;">
+                      <div style="box-shadow: 5px 5px 15px rgba(255, 0, 0, 0.2);width:50px; height: 50px;border-radius: 25px;background-color: #3a6988;display: flex;justify-content: center;align-items: center;color:#fff;font-family: Poppins;">
+                        1.
+                      </div>
+                    </div>
+                    <div style="margin-left: 10px; flex:1;display: flex;flex-direction: column;justify-content: flex-start;align-items: flex-start;">
+                      <div style="font-weight:500;font-family: Poppins;font-size: 18px;">Air Conditioner</div>
+                      <div style="font-family: Poppins;font-size: 14px;margin-top: 10px;color:#bfbfbf">Air Conditioner.</div>
+                    </div>
+                   </div>
+
+                   <div style="margin-top: 30px;display: flex;flex-direction: row;align-items: center;">
+                    <div style="flex:0.1;">
+                      <div style="box-shadow: 5px 5px 15px rgba(255, 0, 0, 0.2);width:50px; height: 50px;border-radius: 25px;background-color: #3a6988;display: flex;justify-content: center;align-items: center;color:#fff;font-family: Poppins;">
+                        2.
+                      </div>
+                    </div>
+                    <div style="margin-left: 10px; flex:1;display: flex;flex-direction: column;justify-content: flex-start;align-items: flex-start;">
+                      <div style="font-weight:500;font-family: Poppins;font-size: 18px;">Reclining Front Seat
+                      </div>
+                      <div style="font-family: Poppins;font-size: 14px;margin-top: 10px;color:#bfbfbf">Reclining Front Seat
+                        .</div>
+                    </div>
+                   </div>
+
+                   <div style="margin-top: 30px;display: flex;flex-direction: row;align-items: center;">
+                    <div style="flex:0.1;">
+                      <div style="box-shadow: 5px 5px 15px rgba(255, 0, 0, 0.2);width:50px; height: 50px;border-radius: 25px;background-color: #3a6988;display: flex;justify-content: center;align-items: center;color:#fff;font-family: Poppins;">
+                        3.
+                      </div>
+                    </div>
+                    <div style="margin-left: 10px; flex:1;display: flex;flex-direction: column;justify-content: flex-start;align-items: flex-start;">
+                      <div style="font-weight:500;font-family: Poppins;font-size: 18px;">Sliding Drivers Seat + Headrests</div>
+                      <div style="font-family: Poppins;font-size: 14px;margin-top: 10px;color:#bfbfbf">Sliding Drivers Seat + Headrests.</div>
+                    </div>
+                   </div>
+                   
+
+
+
+
+
+                   <div style="margin-top: 30px;display: flex;flex-direction: row;align-items: center;">
+                    <div style="flex:0.1;">
+                      <div style="box-shadow: 5px 5px 15px rgba(255, 0, 0, 0.2);width:50px; height: 50px;border-radius: 25px;background-color: #3a6988;display: flex;justify-content: center;align-items: center;color:#fff;font-family: Poppins;">
+                        4.
+                      </div>
+                    </div>
+                    <div style="margin-left: 10px; flex:1;display: flex;flex-direction: column;justify-content: flex-start;align-items: flex-start;">
+                      <div style="font-weight:500;font-family: Poppins;font-size: 18px;">Digital Speedometer</div>
+                      <div style="font-family: Poppins;font-size: 14px;margin-top: 10px;color:#bfbfbf">Digital Speedometer.</div>
+                    </div>
+                   </div>
+
+                   <div style="margin-top: 30px;display: flex;flex-direction: row;align-items: center;">
+                    <div style="flex:0.1;">
+                      <div style="box-shadow: 5px 5px 15px rgba(255, 0, 0, 0.2);width:50px; height: 50px;border-radius: 25px;background-color: #3a6988;display: flex;justify-content: center;align-items: center;color:#fff;font-family: Poppins;">
+                        5.
+                      </div>
+                    </div>
+                    <div style="margin-left: 10px; flex:1;display: flex;flex-direction: column;justify-content: flex-start;align-items: flex-start;">
+                      <div style="font-weight:500;font-family: Poppins;font-size: 18px;">Immobilizer</div>
+                      <div style="font-family: Poppins;font-size: 14px;margin-top: 10px;color:#bfbfbf">Immobilizer.</div>
+                    </div>
+                   </div>
+                   <div style="margin-top: 30px;display: flex;flex-direction: row;align-items: center;">
+                    <div style="flex:0.1;">
+                      <div style="box-shadow: 5px 5px 15px rgba(255, 0, 0, 0.2);width:50px; height: 50px;border-radius: 25px;background-color: #3a6988;display: flex;justify-content: center;align-items: center;color:#fff;font-family: Poppins;">
+                        6.
+                      </div>
+                    </div>
+                    <div style="margin-left: 10px; flex:1;display: flex;flex-direction: column;justify-content: flex-start;align-items: flex-start;">
+                      <div style="font-weight:500;font-family: Poppins;font-size: 18px;">Reverse Parking Sensor System</div>
+                      <div style="font-family: Poppins;font-size: 14px;margin-top: 10px;color:#bfbfbf">Reverse Parking Sensor System.</div>
+                    </div>
+                   </div>
+
+                   <div style="margin-top: 30px;display: flex;flex-direction: row;align-items: center;">
+                    <div style="flex:0.1;">
+                      <div style="box-shadow: 5px 5px 15px rgba(255, 0, 0, 0.2);width:50px; height: 50px;border-radius: 25px;background-color: #3a6988;display: flex;justify-content: center;align-items: center;color:#fff;font-family: Poppins;">
+                        7.
+                      </div>
+                    </div>
+                    <div style="margin-left: 10px; flex:1;display: flex;flex-direction: column;justify-content: flex-start;align-items: flex-start;">
+                      <div style="font-weight:500;font-family: Poppins;font-size: 18px;">Free service at 5,000km</div>
+                      <div style="font-family: Poppins;font-size: 14px;margin-top: 10px;color:#bfbfbf">Free service at 5,000km.</div>
+                    </div>
+                   </div>
+                   <div style="margin-top: 30px;display: flex;flex-direction: row;align-items: center;">
+                    <div style="flex:0.1;">
+                      <div style="box-shadow: 5px 5px 15px rgba(255, 0, 0, 0.2);width:50px; height: 50px;border-radius: 25px;background-color: #3a6988;display: flex;justify-content: center;align-items: center;color:#fff;font-family: Poppins;">
+                        8.
+                      </div>
+                    </div>
+                    <div style="margin-left: 10px; flex:1;display: flex;flex-direction: column;justify-content: flex-start;align-items: flex-start;">
+                      <div style="font-weight:500;font-family: Poppins;font-size: 18px;">Free delivery within Lagos.</div>
+                      <div style="font-family: Poppins;font-size: 14px;margin-top: 10px;color:#bfbfbf">Free delivery within Lagos..</div>
+                    </div>
+                   </div>
+              </div>
+
+              <div style="flex:0.5; height:auto; overflow: hidden; background-color: #f6f6f6;border-radius: 20px;">
+                <img src="./assets/108.jpg" style="width: 100%;height: 100%; object-fit: cover;" />
+              </div>
+        
+        
+        
+        
+            </div>
+
+
+            <div class="hidden" style="padding-left: 20px;padding-right: 40px;">
+
+              <div style="margin-top: 20px; width:100%;border-radius: 20px;background-color: #222;height: auto;padding:30px;position: relative;">
+                  <div style="display: flex;margin-bottom: 20px;">
+                    <div style="font-family: Poppins;color:#fff;font-size: 50px;flex:0.4">
+                      What are you waiting for?
+                     </div>
+                     <div style="flex:0.5;display: flex;flex-direction: column;align-items: flex-end;">
+                      <a href="https://wa.me/+2347060934005" target="_blank" style="text-decoration:none;width: 100px; background-color:#ff0000;height: 40px;border-radius: 20px;color:#fff;align-items: center; justify-content:center;display: flex;font-family: Poppins;padding:10px">Contact us</a>
+                      <a href="https://wa.me/+2347060934005" target="_blank" style="text-decoration:none;width: 100px; background-color:#3a6988;height: 40px;border-radius: 20px;color:#fff;align-items: center; justify-content:center;display: flex;font-family: Poppins;padding: 10px;margin-top: 20px;">Learn more</a>
+                    </div>
+                     
+                     </div>
+                     
+
+                  </div>
+                  
+                  <hr/>
+                  <div style="margin-top: 20px;">
+                    <img src="./assets/bouloswhite.png"/>
+                    <address>
+
+                    </address>
+                  </div>
+              </div>
+
+          </div>
+
+
+              
+
+            
+                
+           
+
+        </div>
+
+        <script>
+          let sold = 1
+          let review = 1
+          let completed = 1
+          let submitted = 1
+          let timeIntervalSold = setInterval(()=>{
+              countUpSold(sold);
+          },50)
+
+          let timeIntervalCompleted = setInterval(()=>{
+              countUpCompleted(completed);
+          },50)
+
+          let timeIntervalReview = setInterval(()=>{
+              countUpReview(review);
+          },50)
+
+          let timeIntervalSubmitted = setInterval(()=>{
+              countUpSubmitted(submitted);
+          },50)
+
+         
+
+         function countUpSold(dataNumber){
+            if(dataNumber <100){
+              dataNumber++;
+              sold = dataNumber
+              document.querySelector('#sold').innerHTML = sold+'k'+'<div style="font-size:18px">Sold Products</div>'
+            
+            }
+            else{
+              clearInterval(timeIntervalSold)
+            }
+
+            
+        }
+
+        function countUpCompleted(dataNumber){
+            if(dataNumber <120){
+              dataNumber++;
+              completed = dataNumber
+              document.querySelector('#completed').innerHTML = completed+'+'+'<div style="font-size:18px">Reviews</div>'
+            
+            }
+            else{
+              clearInterval(timeIntervalCompleted)
+            }
+
+            
+        }
+
+        function countUpReview(dataNumber){
+            if(dataNumber <120){
+              dataNumber++;
+              review = dataNumber
+              document.querySelector('#review').innerHTML = review+'k'+'<div style="font-size:18px">Reviews</div>'
+            
+            }
+            else{
+              clearInterval(timeIntervalReview)
+            }
+
+            
+        }
+
+        function countUpSubmitted(dataNumber){
+            if(dataNumber <100){
+              dataNumber++;
+              submitted = dataNumber
+              document.querySelector('#submitted').innerHTML = submitted+'+'+'<div style="font-size:18px">Reviews</div>'
+            
+            }
+            else{
+              clearInterval(timeIntervalSubmitted)
+            }
+
+            
+        }
+       
+       
+       </script>
+
+       <script>
+        document.addEventListener("DOMContentLoaded", function () {
+          const sections = document.querySelectorAll(".hidden");
+
+          const observer = new IntersectionObserver(
+              (entries) => {
+                  entries.forEach((entry) => {
+                      if (entry.isIntersecting) {
+                          entry.target.classList.add("slide-up");
+                          observer.unobserve(entry.target); // Unobserve once animated
+                      }
+                  });
+              },
+              { threshold: 0.2 } // Trigger when 20% of the section is visible
+          );
+
+          sections.forEach((section) => observer.observe(section));
+      });
+
+       </script>
+        
+       
+
+    </body>
+</html>
