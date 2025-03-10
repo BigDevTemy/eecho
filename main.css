@@ -1,0 +1,468 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.logoDiv{
+    display: flex;align-items: center;flex-direction: column;justify-content: flex-start;
+}
+.container{
+    flex:1;
+    height: 100%;
+    flex-direction: column;
+    background-color: #fff;
+    padding-left: 100px;
+    padding-right: 100px;
+    position: relative;
+   
+}
+
+.component{
+    background-color: "#003300";
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+   
+}
+.poppins-thin {
+font-family: "Poppins", serif;
+font-weight: 100;
+font-style: normal;
+}
+
+.poppins-extralight {
+font-family: "Poppins", serif;
+font-weight: 200;
+font-style: normal;
+}
+
+.poppins-light {
+font-family: "Poppins", serif;
+font-weight: 300;
+font-style: normal;
+}
+
+.poppins-regular {
+font-family: "Poppins", serif;
+font-weight: 400;
+font-style: normal;
+}
+
+.poppins-medium {
+font-family: "Poppins", serif;
+font-weight: 500;
+font-style: normal;
+}
+
+.poppins-semibold {
+font-family: "Poppins", serif;
+font-weight: 600;
+font-style: normal;
+}
+
+.poppins-bold {
+font-family: "Poppins", serif;
+font-weight: 700;
+font-style: normal;
+}
+
+.poppins-extrabold {
+font-family: "Poppins", serif;
+font-weight: 800;
+font-style: normal;
+}
+
+.poppins-black {
+font-family: "Poppins", serif;
+font-weight: 900;
+font-style: normal;
+}
+
+.poppins-thin-italic {
+font-family: "Poppins", serif;
+font-weight: 100;
+font-style: italic;
+}
+
+.poppins-extralight-italic {
+font-family: "Poppins", serif;
+font-weight: 200;
+font-style: italic;
+}
+
+.poppins-light-italic {
+font-family: "Poppins", serif;
+font-weight: 300;
+font-style: italic;
+}
+
+.poppins-regular-italic {
+font-family: "Poppins", serif;
+font-weight: 400;
+font-style: italic;
+}
+
+.poppins-medium-italic {
+font-family: "Poppins", serif;
+font-weight: 500;
+font-style: italic;
+}
+
+.poppins-semibold-italic {
+font-family: "Poppins", serif;
+font-weight: 600;
+font-style: italic;
+}
+
+.poppins-bold-italic {
+font-family: "Poppins", serif;
+font-weight: 700;
+font-style: italic;
+}
+
+.poppins-extrabold-italic {
+font-family: "Poppins", serif;
+font-weight: 800;
+font-style: italic;
+}
+
+.poppins-black-italic {
+font-family: "Poppins", serif;
+font-weight: 900;
+font-style: italic;
+}
+.hidden {
+opacity: 0;
+transform: translateY(50px);
+transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.slide-up {
+opacity: 1;
+transform: translateY(0);
+}
+
+.navBar{
+    flex:0.5;
+    width:100%;
+    display:flex
+}
+.nav-child{
+    flex:1;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Poppins;
+    cursor: pointer;
+}
+
+.contact-btn{
+    box-shadow: 5px 5px 15px rgba(255, 0, 0, 0.1);
+    text-decoration:none;width: 100px; 
+    background-color:#3a6988;
+    height: 40px;
+    border-radius: 20px;
+    color:#fff;
+    align-items: center; 
+    justify-content:center;
+    display: flex;
+    font-family: Poppins;
+    padding: 10px;
+}
+.heroContainer{
+    width:100%;
+     height:100vh;
+     padding-left: 20px;
+     padding-right: 20px;
+}
+.heroChildContainer{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    margin-top: 20px;
+    position: absolute;
+    z-index: 10;
+}
+.heroTextI{
+    display: flex;
+     flex-wrap: wrap;
+     flex:1;
+     font-family: Poppins;
+     font-size:60px;
+     justify-content: flex-start;
+     align-items: flex-start;
+}
+.heroTextII{
+    width:50px;flex:0.4;flex-wrap:wrap;font-family:  Poppins; font-size: 14px;color:#bfbfbf;
+}
+.heroImageContainer{
+    margin-top:0px;
+    width:100%; 
+    flex: 1; 
+    display: flex;
+    justify-content: center;
+     flex-direction: column;
+     position: relative;
+}
+.imageHero{
+    width: 100%; object-fit: cover
+}
+.heroInfor{
+    left:0%;font-size:14px; width: 320px;height:70px;background-color:rgba(199, 199, 199, 1);border-radius: 20px;position: absolute; z-index: 1;bottom:0px;padding: 20px;color:#fff;font-family:Poppins;top:70%
+}
+.mission{
+    width:60%;padding-left: 20px;padding-right: 20px;margin-top: 100px;font-family: Poppins; font-size: 25px;
+}
+
+.achievementContainer{
+    margin-top: 20px;width:100%;display:flex;flex-direction: row
+}
+.achievementInfor{
+    flex:0.3;color:#bfbfbf;font-family: Poppins; font-size: 15px;text-align: start;margin-top: 20px;
+}
+
+.reviews{
+    flex: 0.7; display: flex; flex-wrap: wrap; width: 100%;
+}
+
+.reviews >div{
+    background-color: #f6f6f6; border-radius: 20px; margin: 10px; height: 200px; flex: 1 1 calc(50% - 20px); text-align: center; display: flex; align-items: center; justify-content: center;font-size: 60px;font-family: Poppins;flex-direction: column;
+}
+
+.bookRide{
+    padding-left: 20px;padding-right: 40px;
+}
+.bookRideChild{
+    margin-top: 20px; width:100%;border-radius: 20px;background-color: #222;height: 400px;padding:30px;position: relative;
+}
+
+.childI{
+    font-family: Poppins;color:#fff;font-size: 30px;width: 50%;
+}
+.HeroII{
+    width: 80%;display: flex;justify-content: flex-end; position: absolute;bottom:-45%;left: 25%;
+}
+.menu{
+    display: none;
+}
+
+.WhyChooseUs{
+    margin-top: 120px; 
+    width:100%;
+    height:auto;
+    display:flex;
+    margin-bottom: 100px
+}
+.whyChooseUsContainer{
+    flex:0.5; 
+    height:auto; 
+    overflow: hidden;
+     background-color: #f6f6f6;
+     border-radius: 20px;
+}
+.flexD{
+    flex:1
+}
+.WhyChooseUsContent{
+    flex: 0.5;
+    color:#222;
+    text-align: start;
+    margin-left: 20px;
+}
+.why{
+    font-family:Poppins;font-size: 30px;
+}
+.whyDetails{
+    margin-top: 30px;display: flex;flex-direction: row;align-items: center;
+}
+
+
+/* Extra Small Devices (Phones, less than 576px) */
+@media (max-width: 575.98px) {
+    /* Styles for extra small devices */
+    .menu{
+        display: flex;
+        justify-content: flex-end;
+        
+    }
+    .container{
+        padding-left: 50px;
+        padding-right: 50px;
+        height: 100%;
+    }
+
+    .contact-btn{
+        display: none;
+    }
+    .navBar{
+        display: none;
+    }
+    .heroTextI{
+        display: flex;
+        flex-wrap: wrap;
+        flex:0.7;
+        font-family: Poppins;
+        font-size:40px;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .heroTextII{
+        display:none;
+    }
+    .imageHero{
+        margin-top: 40px;
+    }
+    .heroInfor{
+        left:0%;font-size:14px; width: 320px;height:auto;background-color:rgba(199, 199, 199, 1);border-radius: 20px;position: absolute; z-index: 1;bottom:0px;padding: 20px;color:#fff;font-family:Poppins;top:80%
+    }
+    .mission{
+    display: none;
+    }
+    .achievementContainer{
+        display: flex;
+        flex-direction: column;
+    }
+    .achievementInfor{
+        font-family: Poppins;
+        font-size: 25px;
+    }
+
+    .childI{
+        font-size: 25px;
+    }
+    .bookRideChild{
+        height: 300px;
+        
+    }
+}
+
+/* Small Devices (Tablets, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /* Styles for small devices */
+
+    .menu{
+        display: flex;
+        justify-content: flex-end;
+        
+      }
+      .container{
+        padding-left: 50px;
+        padding-right: 50px;
+        height: 100%;
+      }
+    
+      .contact-btn{
+        display: none;
+      }
+      .navBar{
+        display: none;
+      }
+      .heroTextI{
+        display: flex;
+         flex-wrap: wrap;
+         flex:0.7;
+         font-family: Poppins;
+         font-size:40px;
+         justify-content: flex-start;
+         align-items: flex-start;
+    }
+    .heroTextII{
+        display:none;
+    }
+    .imageHero{
+        margin-top: 40px;
+    }
+    .heroInfor{
+        left:0%;font-size:14px; width: 320px;height:auto;background-color:rgba(199, 199, 199, 1);border-radius: 20px;position: absolute; z-index: 1;bottom:0px;padding: 20px;color:#fff;font-family:Poppins;top:80%
+    }
+    .mission{
+       display: none;
+    }
+    .achievementContainer{
+        display: flex;
+        flex-direction: column;
+    }
+    .achievementInfor{
+        font-family: Poppins;
+        font-size: 25px;
+    }
+    
+    .childI{
+        font-size: 25px;
+    }
+    .bookRideChild{
+        height: 300px;
+        
+    }
+    
+}
+
+/* Medium Devices (Desktops, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* Styles for medium devices */
+
+    .menu{
+        display: flex;
+        justify-content: flex-end;
+        
+      }
+      .container{
+        padding-left: 50px;
+        padding-right: 50px;
+        height: 100%;
+      }
+    
+      .contact-btn{
+        display: none;
+      }
+      .navBar{
+        display: none;
+      }
+      .heroTextI{
+        display: flex;
+         flex-wrap: wrap;
+         flex:0.7;
+         font-family: Poppins;
+         font-size:40px;
+         justify-content: flex-start;
+         align-items: flex-start;
+    }
+    .heroTextII{
+        display:none;
+    }
+    .imageHero{
+        margin-top: 40px;
+    }
+    .heroInfor{
+        left:0%;font-size:14px; width: 320px;height:auto;background-color:rgba(199, 199, 199, 1);border-radius: 20px;position: absolute; z-index: 1;bottom:0px;padding: 20px;color:#fff;font-family:Poppins;top:80%
+    }
+    .mission{
+       display: none;
+    }
+    .achievementContainer{
+        display: flex;
+        flex-direction: column;
+    }
+    .achievementInfor{
+        font-family: Poppins;
+        font-size: 25px;
+    }
+    
+    .childI{
+        font-size: 25px;
+    }
+    .bookRideChild{
+        height: 300px;
+        
+    }
+}
+
+/* Large Devices (Large Desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /* Styles for large devices */
+}
+
+/* Extra Large Devices (Extra Large Desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    /* Styles for extra large devices */
+}
+
