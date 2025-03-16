@@ -254,13 +254,13 @@ transform: translateY(0);
 }
 .whyChooseUsContainer{
     flex:0.5; 
-    height:auto; 
+    height:100%; 
     overflow: hidden;
      background-color: #f6f6f6;
      border-radius: 20px;
 }
 .flexD{
-    flex:1
+   flex:1
 }
 .WhyChooseUsContent{
     flex: 0.5;
@@ -284,7 +284,7 @@ transform: translateY(0);
     font-family:Poppins;font-size: 30px;
 }
 .imageHero3{
-    flex:0.5; height:auto; overflow: hidden; background-color: #222;border-radius: 20px;
+    flex:0.5; height:100%; overflow: hidden; background-color: #222;border-radius: 20px;
 }
 .footer{
     padding-left: 20px;padding-right: 40px;
@@ -471,6 +471,10 @@ transform: translateY(0);
         justify-content: flex-end;
         
       }
+      .heroChildContainer{
+        height: auto;
+        background-color: #222;
+      }
       .container{
         padding-left: 50px;
         padding-right: 50px;
@@ -539,6 +543,11 @@ transform: translateY(0);
         padding-right: 50px;
         height: 100%;
       }
+      .heroContainer{
+        height: auto;
+        
+      }
+
     
       .contact-btn{
         display: none;
@@ -588,10 +597,75 @@ transform: translateY(0);
 /* Large Devices (Large Desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
     /* Styles for large devices */
+    
+    .menu{
+        display: flex;
+        justify-content: flex-end;
+        
+      }
+      .container{
+        padding-left: 50px;
+        padding-right: 50px;
+        height: 100%;
+      }
+      .heroContainer{
+        height: auto;
+        
+      }
+
+    
+      .contact-btn{
+        display: none;
+      }
+      .navBar{
+        display: none;
+      }
+      .heroTextI{
+        display: flex;
+         flex-wrap: wrap;
+         flex:0.7;
+         font-family: Poppins;
+         font-size:40px;
+         justify-content: flex-start;
+         align-items: flex-start;
+    }
+    .heroTextII{
+        display:none;
+    }
+    .imageHero{
+        margin-top: 40px;
+    }
+    .heroInfor{
+        left:0%;font-size:14px; width: 320px;height:auto;background-color:rgba(199, 199, 199, 1);border-radius: 20px;position: absolute; z-index: 1;bottom:0px;padding: 20px;color:#fff;font-family:Poppins;top:80%
+    }
+    .mission{
+       display: none;
+    }
+    .achievementContainer{
+        display: flex;
+        flex-direction: column;
+    }
+    .achievementInfor{
+        font-family: Poppins;
+        font-size: 25px;
+    }
+    
+    .childI{
+        font-size: 25px;
+    }
+    .bookRideChild{
+        height: 300px;
+        
+    }
+   
 }
 
 /* Extra Large Devices (Extra Large Desktops, 1200px and up) */
 @media (min-width: 1200px) {
     /* Styles for extra large devices */
+    .heroChildContainer{
+        height: auto;
+        background-color: #222;
+    }
 }
 
