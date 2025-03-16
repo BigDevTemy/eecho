@@ -279,14 +279,17 @@ transform: translateY(0);
 /* Extra Small Devices (Phones, less than 576px) */
 @media (max-width: 575.98px) {
     /* Styles for extra small devices */
+    .logoDiv > img{
+        width: 100%;
+    }
     .menu{
         display: flex;
         justify-content: flex-end;
         
     }
     .container{
-        padding-left: 50px;
-        padding-right: 50px;
+        padding-left: 20px;
+        padding-right: 20px;
         height: 100%;
     }
 
@@ -296,44 +299,107 @@ transform: translateY(0);
     .navBar{
         display: none;
     }
+    .heroChildContainer{
+      
+        width: auto;
+    }
+    .heroContainer{
+       
+        height:auto;
+    }
+   
     .heroTextI{
         display: flex;
         flex-wrap: wrap;
-        flex:0.7;
+        width: auto;
         font-family: Poppins;
-        font-size:40px;
+        font-size:1.5rem;
         justify-content: flex-start;
         align-items: flex-start;
+    }
+    .heroImageContainer{
+        
+        padding-top: 20px;
+        
     }
     .heroTextII{
         display:none;
     }
     .imageHero{
         margin-top: 40px;
+        width: 90%;
     }
     .heroInfor{
-        left:0%;font-size:14px; width: 320px;height:auto;background-color:rgba(199, 199, 199, 1);border-radius: 20px;position: absolute; z-index: 1;bottom:0px;padding: 20px;color:#fff;font-family:Poppins;top:80%
+        margin-top:30px; left:0%;font-size:14px; width:80%;height:20%;background-color:rgba(199, 199, 199, 1);border-radius: 20px;position: absolute; z-index: 1;bottom:0px;padding: 10px;color:#fff;font-family:Poppins;top:80%
     }
     .mission{
-    display: none;
+        display: none;
+        margin-top: 50px;
+        padding: 20px;
+        text-align: left;
+        width: 100%;
+        font-size: 1rem;
+    
     }
     .achievementContainer{
         display: flex;
         flex-direction: column;
+        margin-top: 50px;
     }
     .achievementInfor{
         font-family: Poppins;
-        font-size: 25px;
+        font-size: 18px;
+        text-align: left;
+        
     }
 
     .childI{
         font-size: 25px;
     }
+    .bookRide{
+        padding-left: 10px;padding-right: 60px;
+    }
     .bookRideChild{
         height: 300px;
         
+        
+    }
+    .childI{
+        font-size: 18px;
+        text-align: left;
+        width: 100%;
+    }
+    .reviews >div{
+        font-size: 18px;
+    }
+    .HeroII{
+        width: 100%;display: flex;justify-content: flex-end; position: absolute;bottom:0%;left:0
+    }
+    .WhyChooseUs{
+        margin-top: 120px; 
+        width:100%;
+        height:auto;
+        display:flex;
+        flex-direction: column;
+        margin-bottom: 100px
+    }
+    .whyChooseUsContainer{
+        flex:1; 
+        width: 100%;
+        padding: 0px;
+        
+    }
+    .why{
+        font-size: 20px;
+        text-align: left;
+        margin-top: 10px;
+        font-weight: 600;
+        width: 100%;
+        
+
     }
 }
+
 
 /* Small Devices (Tablets, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -374,6 +440,7 @@ transform: translateY(0);
     .heroInfor{
         left:0%;font-size:14px; width: 320px;height:auto;background-color:rgba(199, 199, 199, 1);border-radius: 20px;position: absolute; z-index: 1;bottom:0px;padding: 20px;color:#fff;font-family:Poppins;top:80%
     }
+ 
     .mission{
        display: none;
     }
@@ -393,6 +460,7 @@ transform: translateY(0);
         height: 300px;
         
     }
+    
     
 }
 
