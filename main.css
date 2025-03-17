@@ -473,7 +473,7 @@ transform: translateY(0);
         
     }
     .footerMainContainer{
-        margin-top: 20px; width:90%;border-radius: 0px;background-color: #222;padding:20px;position: relative;margin-bottom: 10px;
+        margin-top: 20px; width:100%;border-radius: 0px;background-color: #222;padding:20px;position: relative;margin-bottom: 10px;
     }
     .footerChildOne{
         display: flex;margin-bottom: 20px;flex-direction: column;
