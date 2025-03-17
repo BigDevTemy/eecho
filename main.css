@@ -665,7 +665,7 @@ transform: translateY(0);
     /* Styles for extra large devices */
     .heroChildContainer{
         height: auto;
-        background-color: #222;
+        
     }
 }
 
