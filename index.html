@@ -18,8 +18,22 @@
                 </div>
                 
                <a href="https://wa.link/bel" target="_blank" class="contact-btn">Contact us</a>
-               <div class="menu"><img src="./assets/bars-solid.svg" style="width: 15%;"/></div>
+               <div class="menu" id="toggleOffcanvas"><img src="./assets/bars-solid.svg" style="width: 15%;"/></div>
             </div>
+<!-- Offcanvas -->
+            <div class="offcanvas">
+              <div class="offcanvas-content">
+                  <button id="closeOffcanvas">&times;</button>
+                  <h2>Menu</h2>
+                  <div style="margin-top: 20px;text-align: left;">
+                    <p style="font-family: Poppins;font-size: 18px;"><a href="https://boulos.ng" style="text-decoration: none;">Home</a></p>
+                    <p style="font-family: Poppins;font-size: 18px;"><a href="https://boulos.ng/about-us" style="text-decoration: none;">About us</a></p>
+                    <p style="font-family: Poppins;font-size: 18px;"><a href="https://boulos.ng/vechicles#TWO_WHEELERS" style="text-decoration: none;">Our Products</a></p>
+                    <p style="font-family: Poppins;font-size: 18px;"><a href="https://boulos.ng/newsletter" style="text-decoration: none;">NewsLetters</a></p>
+                  </div>
+                 
+              </div>
+          </div>
           <!-- Hero Component -->
             <div class="hidden heroContainer">
                 <div class="heroChildContainer">
@@ -415,6 +429,30 @@
           sections.forEach((section) => observer.observe(section));
       });
 
+       </script>
+
+       <script>
+
+        // Toggle Offcanvas
+        const toggleOffcanvas = document.getElementById('toggleOffcanvas');
+        const closeOffcanvas = document.getElementById('closeOffcanvas');
+        const offcanvas = document.querySelector('.offcanvas');
+              const overlay = document.querySelector('.overlay');
+
+              toggleOffcanvas.addEventListener('click', () => {
+                  offcanvas.classList.toggle('open');
+                  overlay.classList.toggle('active');
+              });
+
+              closeOffcanvas.addEventListener('click', () => {
+                  offcanvas.classList.remove('open');
+                  overlay.classList.remove('active');
+              });
+
+              overlay.addEventListener('click', () => {
+                  offcanvas.classList.remove('open');
+                  overlay.classList.remove('active');
+              });
        </script>
         
        
