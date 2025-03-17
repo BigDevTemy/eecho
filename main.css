@@ -8,19 +8,21 @@
     height: 100%;
     flex-direction: column;
     background-color: #fff;
-    padding-left: 100px;
-    padding-right: 100px;
+   
     position: relative;
    
 }
 
 .component{
-    background-color: "#003300";
+    
     display:flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    
    
 }
 .poppins-thin {
@@ -168,11 +170,14 @@ transform: translateY(0);
     padding: 10px;
 }
 .heroContainer{
-    width:100%;
+    width:90%;
      height:100vh;
      padding-left: 20px;
      padding-right: 20px;
+     margin-left: 100px;
+     margin-right: 100px;
 }
+
 .heroChildContainer{
     display:flex;
     flex-direction: row;
@@ -210,11 +215,11 @@ transform: translateY(0);
     left:0%;font-size:14px; width: 320px;height:70px;background-color:rgba(199, 199, 199, 1);border-radius: 20px;position: absolute; z-index: 1;bottom:0px;padding: 20px;color:#fff;font-family:Poppins;top:70%
 }
 .mission{
-    width:60%;padding-left: 20px;padding-right: 20px;margin-top: 100px;font-family: Poppins; font-size: 25px;
+    width:60%;padding-left: 20px;padding-right: 20px;margin-top: 140px;font-family: Poppins; font-size: 25px;margin-left:100px;margin-right:100px;
 }
 
 .achievementContainer{
-    margin-top: 20px;width:100%;display:flex;flex-direction: row
+    margin-top: 20px;width:90%;display:flex;flex-direction: row;margin-left: 100px;
 }
 .achievementInfor{
     flex:0.3;color:#bfbfbf;font-family: Poppins; font-size: 15px;text-align: start;margin-top: 20px;
@@ -229,7 +234,7 @@ transform: translateY(0);
 }
 
 .bookRide{
-    padding-left: 20px;padding-right: 40px;
+    padding-left: 20px;padding-right: 40px;margin-left: 100px;margin-right: 100px;
 }
 .bookRideChild{
     margin-top: 20px; width:100%;border-radius: 20px;background-color: #222;height: 400px;padding:30px;position: relative;
@@ -247,10 +252,12 @@ transform: translateY(0);
 
 .WhyChooseUs{
     margin-top: 120px; 
-    width:100%;
+    width:90%;
     height:auto;
     display:flex;
-    margin-bottom: 100px
+    margin-bottom: 100px;
+    margin-left:100px;
+    margin-right:100px;
 }
 .whyChooseUsContainer{
     flex:0.5; 
@@ -275,7 +282,7 @@ transform: translateY(0);
     margin-top: 30px;display: flex;flex-direction: row;align-items: center;
 }
 .WhatMakesUs{
-    margin-top: 120px; width:100%;height:auto;display:flex;margin-bottom: 100px;flex-direction: row;
+    margin-top: 120px; width:90%;height:auto;display:flex;margin-bottom: 100px;flex-direction: row;margin-left: 100px;margin-right: 100px;
 }
 .WhatMakesUsContainer{
     flex: 0.5;color:#222;text-align: start;margin-left: 20px;
@@ -287,10 +294,10 @@ transform: translateY(0);
     flex:0.5; height:100%; overflow: hidden; background-color: #222;border-radius: 20px;
 }
 .footer{
-    padding-left: 20px;padding-right: 40px;
+    padding-left: 0px;padding-right: 0px;width: 95%;background-color: #3a6988;
 }
 .footerMainContainer{
-    margin-top: 20px; width:100%;border-radius: 20px;background-color: #222;padding:30px;position: relative;
+    margin-top: 20px; width:100%;border-radius: 0px;background-color: #222;padding:30px;position: relative;
 }
 .footerChildOne{
     display: flex;margin-bottom: 20px;flex-direction: row;
@@ -309,14 +316,18 @@ transform: translateY(0);
     .logoDiv > img{
         width: 100%;
     }
+    .component{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
     .menu{
         display: flex;
         justify-content: flex-end;
         
     }
     .container{
-        padding-left: 20px;
-        padding-right: 20px;
+        /* padding-left: 20px;
+        padding-right: 20px; */
         height: 100%;
     }
 
@@ -331,7 +342,8 @@ transform: translateY(0);
         width: auto;
     }
     .heroContainer{
-       
+        margin-left: 0px;
+        margin-right: 0px;
         height:auto;
     }
    
@@ -372,6 +384,8 @@ transform: translateY(0);
         display: flex;
         flex-direction: column;
         margin-top: 50px;
+        margin-left: 20px;
+        margin-right: 20px;
     }
     .achievementInfor{
         font-family: Poppins;
@@ -385,6 +399,8 @@ transform: translateY(0);
     }
     .bookRide{
         padding-left: 10px;padding-right: 60px;
+        margin-left: 0px;
+        margin-right: 0px;
     }
     .bookRideChild{
         height: 300px;
@@ -408,12 +424,17 @@ transform: translateY(0);
         height:auto;
         display:flex;
         flex-direction: column;
-        margin-bottom: 100px
+        margin-bottom: 100px;
+        margin-left: 20px;
+        margin-right: 20px;
     }
+    
     .whyChooseUsContainer{
         flex:1; 
         width: 100%;
         padding: 0px;
+       
+      
         
     }
     .why{
@@ -424,6 +445,14 @@ transform: translateY(0);
         width: 100%;
         
 
+    }
+    .whyDetails{
+        width: 90%;
+    }
+    .WhatMakesUs{
+        flex-direction: column;
+        margin-left: 20px;
+        margin-right: 20px;
     }
     
     .WhatMakesUsContainer{
@@ -440,9 +469,11 @@ transform: translateY(0);
     .footer{
         padding: 0px;
         width: 100%;
+        
+        
     }
     .footerMainContainer{
-        margin-top: 20px; width:90%;border-radius: 20px;background-color: #222;padding:20px;position: relative;
+        margin-top: 20px; width:90%;border-radius: 0px;background-color: #222;padding:20px;position: relative;margin-bottom: 10px;
     }
     .footerChildOne{
         display: flex;margin-bottom: 20px;flex-direction: column;
