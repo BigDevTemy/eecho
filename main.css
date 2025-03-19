@@ -144,7 +144,7 @@ transform: translateY(0);
 }
 
 .navBar{
-    flex:0.5;
+    flex:0.8;
     width:100%;
     display:flex
 }
@@ -171,7 +171,7 @@ transform: translateY(0);
 }
 .heroContainer{
     width:90%;
-     height:100vh;
+     height:90vh;
      padding-left: 20px;
      padding-right: 20px;
      margin-left: 100px;
@@ -192,9 +192,10 @@ transform: translateY(0);
      flex-wrap: wrap;
      flex:1;
      font-family: Poppins;
-     font-size:60px;
+     font-size:57px;
      justify-content: flex-start;
      align-items: flex-start;
+     
 }
 .heroTextII{
     width:50px;flex:0.4;flex-wrap:wrap;font-family:  Poppins; font-size: 14px;color:#bfbfbf;

@@ -154,7 +154,7 @@
                         </div>
                        </div>
 
-                       <div class="whyDetails">
+                       <!-- <div class="whyDetails">
                         <div style="flex:0.1;">
                           <div style="box-shadow: 5px 5px 15px rgba(255, 0, 0, 0.2);width:50px; height: 50px;border-radius: 25px;background-color: #3a6988;display: flex;justify-content: center;align-items: center;color:#fff;font-family: Poppins;">
                             4.
@@ -176,7 +176,7 @@
                           <div style="font-weight:500;font-family: Poppins;font-size: 18px;">Dashing</div>
                           <div style="font-family: Poppins;font-size: 14px;margin-top: 10px;color:#bfbfbf">By choosing our electric car rental services, you are reducing your carbon footprint and doing your part to protect the environment.</div>
                         </div>
-                       </div>
+                       </div> -->
                   </div>
             </div>
 
@@ -185,7 +185,7 @@
                
               
               <div class="WhatMakesUsContainer">
-                   <div class="WhatMakesUsTitle">What makes us ?</div>
+                   <div class="WhatMakesUsTitle">Our Specifications</div>
 
                    <div style="margin-top: 30px;display: flex;flex-direction: row;align-items: center;">
                     <div style="flex:0.1;">
@@ -355,7 +355,7 @@
             if(dataNumber <100){
               dataNumber++;
               sold = dataNumber
-              document.querySelector('#sold').innerHTML = sold+'k'+'<div style="font-size:18px">Sold Products</div>'
+              document.querySelector('#sold').innerHTML = sold+'k'+'<div style="font-size:18px">Sold Products.</div>'
             
             }
             else{
@@ -369,7 +369,7 @@
             if(dataNumber <120){
               dataNumber++;
               completed = dataNumber
-              document.querySelector('#completed').innerHTML = completed+'+'+'<div style="font-size:18px">Reviews</div>'
+              document.querySelector('#completed').innerHTML = completed+'+'+'<div style="font-size:18px">Reviews.</div>'
             
             }
             else{
@@ -380,10 +380,10 @@
         }
 
         function countUpReview(dataNumber){
-            if(dataNumber <120){
+            if(dataNumber < 2){
               dataNumber++;
               review = dataNumber
-              document.querySelector('#review').innerHTML = review+'k'+'<div style="font-size:18px">Reviews</div>'
+              document.querySelector('#review').innerHTML = review+'m'+'<div style="font-size:18px">Satistfied Customers.</div>'
             
             }
             else{
@@ -394,10 +394,10 @@
         }
 
         function countUpSubmitted(dataNumber){
-            if(dataNumber <100){
+            if(dataNumber <50){
               dataNumber++;
               submitted = dataNumber
-              document.querySelector('#submitted').innerHTML = submitted+'+'+'<div style="font-size:18px">Reviews</div>'
+              document.querySelector('#submitted').innerHTML = submitted+'+'+'<div style="font-size:18px">After Sales & Mechanic Workshops.</div>'
             
             }
             else{
